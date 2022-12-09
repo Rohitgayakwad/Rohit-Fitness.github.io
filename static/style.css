@@ -1,0 +1,231 @@
+@media only screen and (max-width:400px) {
+    body {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('/static/img/bg.jpg');
+    background-size: 693px 724px;
+    height: 700px;
+} 
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 7px;
+    top: 6px;
+}
+
+.left div{
+    line-height: 0px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.left img {
+    width: 50px;
+    filter: invert(100%);
+    margin-left: 5px;
+}
+
+.mid {
+    display: block;
+    width: 92%;
+    margin: 8px 38px;
+    font-size: 14px;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 4px;
+    top: 14px;
+    display: none;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 1px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 2px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(151, 151, 151);
+}
+
+.btn {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin: 2px 1px;
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(75, 74, 74);
+}
+
+.container{
+    /* border: 2px solid white; */
+    margin: 28px 54px;
+    padding: 32px;
+    width: 57%;
+    height: 44%;
+    border-radius: 7px;
+}
+.form-group input{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align: center;
+    display: block;
+    width: 179px;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 4px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+.container h3{
+    font-size: 24px;
+    padding: 0px 16px;
+    margin-top: 14px;
+}
+.container button{
+    display: block;
+    width: 34%;
+    font-size: 13px;
+    margin: 15px 70px;
+}
+
+}
+
+@media only screen and (min-width:400px) and (max-width:3000px) {
+    body {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('/static/img/bg.jpg');
+    background-size: 2100px;
+    height: 1350px;
+}
+    .left {
+    display: inline-block; 
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.left div{
+    line-height: 19px;
+    font-size: 20px;
+   text-align: center; 
+}
+
+.left img {
+    width: 55px;
+    filter: invert(100%);
+    margin-left: 30px;
+}
+
+.mid {
+    display: block;
+    width: 45%;
+    margin: 4px auto;
+    font-size: 25px;
+    /* border: 2px solid green; */
+   } 
+
+.right { 
+    position: absolute;
+    right: 34px;
+    top: 22px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    }
+
+.navbar { 
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(151, 151, 151);
+}
+
+.btn {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin: 7px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(75, 74, 74);
+}
+
+.container{
+ border: 2px solid white;
+ margin: 90px 60px;
+ padding: 35px;
+ width: 30%;
+ height: 21%;
+ border-radius: 28px;
+}
+.form-group input{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align: center;
+    display: block;
+    width: 308px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 3px 70px;
+    font-size: 15px;
+    border-radius: 5px;
+
+} 
+
+.container h3{
+    font-size: 28px;
+    margin-top: -12px;
+}
+.container button{
+    display: block;
+    width: 76%;
+    margin: 20px auto;
+} 
+
+}
